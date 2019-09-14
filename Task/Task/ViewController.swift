@@ -53,6 +53,7 @@ class ViewController: UIViewController,UITableViewDataSource,UITableViewDelegate
         
         view.addSubview(postsTV)
         
+        countBT.frame = CGRect(x: 0, y: 0, width: 50, height: 32)
         self.navigationItem.rightBarButtonItem = UIBarButtonItem.init(customView: countBT)
 
         
